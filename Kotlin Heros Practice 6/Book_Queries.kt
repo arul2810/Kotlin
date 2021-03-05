@@ -31,7 +31,7 @@ if(temp[0] == "L"){
 
 // Adding Value to first position of the array
 var value = temp[1].toInt()
-array.add(0,value)
+array.add(0,value)  
 
 }else if(temp[0] == "R"){ // Element to be added to the right
 
@@ -42,12 +42,13 @@ array.add(value)
 }else if(temp[0] == "?"){
 
 // Finding minimum number of elements to be removed
-var left_ele = 1
-var right_ele = 1
+var left_ele = 0
+var right_ele = 0
 var flag = 0
+
 for(j in 0..array.size-1){
 
-if(array[i] != temp[1].toInt() && flag == 0){
+if(array[j] != temp[1].toInt() && flag == 0){
 
 left_ele += 1
 
@@ -59,7 +60,7 @@ left_ele += 1
 flag = 0
 for(j in array.size-1 downTo 0){
 
-if(array[i] != temp[1].toInt()&&flag == 0){
+if(array[j] != temp[1].toInt() && flag == 0){
     right_ele += 1
 }else{
     flag =1 
