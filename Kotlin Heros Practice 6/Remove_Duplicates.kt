@@ -1,6 +1,8 @@
 
 
-import java.util.ArrayList// Created by Arul Prakash Samathuvamani - University of Leeds PGT - hello@arulprakash.dev
+import java.util.ArrayList
+
+// Created by Arul Prakash Samathuvamani - University of Leeds PGT - hello@arulprakash.dev
 
 // Created for CodeForces Kotlin Heros Practice 6 Contest - Problem A - Remove Duplicates
 
